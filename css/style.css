@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
 .logo{
     width: 100px;
     height: 100px;
@@ -17,4 +24,18 @@
 .dropdown-menu {
     padding: 0 0;
 }
-
+.radiousa{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.social-nav li a{
+  color: rgba(245, 245, 252, 0.534);
+}
+.social-nav li a:hover{
+  color: #3b9865;
+}
+.bg-marq{
+    background-color: #90a7b2;
+    
+}
