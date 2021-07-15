@@ -30,12 +30,15 @@
     border-radius: 50%;
 }
 .social-nav li a{
-  color: rgba(245, 245, 252, 0.534);
+  color: white;
 }
 .social-nav li a:hover{
-  color: #3b9865;
+  color: #8ab652;
 }
 .bg-marq{
     background-color: #90a7b2;
     
+}
+.card-hover:hover{
+    background-color: #455A64;
 }
