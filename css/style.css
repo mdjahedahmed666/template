@@ -11,7 +11,13 @@
     margin-top: 10px;
 }
 .bg-color{
-    background-color: #455A64 ;
+    background-color: #187875;
+}
+.bgSecondary{
+    background-color: #60ab13;
+}
+.textColor{
+    color: #60ab13;
 }
 .border-bottom {
     border-bottom: 1px solid rgba(0, 0, 0, 0.253)!important;
@@ -36,9 +42,38 @@
   color: #8ab652;
 }
 .bg-marq{
-    background-color: #90a7b2;
+    background-color: #8edbd9;
     
 }
 .card-hover:hover{
-    background-color: #455A64;
+    background-color: #60ab13;
+}
+#home-icon .fas,
+#home-icon .far {
+    font-size: 50px;
+    color: #c3d136;
+}
+#home-getstarted {
+    position: relative;
+    background: url("../images/leadingpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+#home-getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.row>* {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.tanvir .card-body {   
+    padding: 3px 3px !important;
 }
