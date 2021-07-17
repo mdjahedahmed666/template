@@ -10,11 +10,31 @@
     height: 100px;
     margin-top: 10px;
 }
+.bar{
+    color:#fff; 
+    font-size:28px; 
+    margin: 10px;
+    
+}
+.cnav ul li ul{
+	position:absolute;left:-99999px;
+	background:#fff;
+    z-index: 999;
+}
+.cnav ul li:hover ul{
+	left:0;
+}
+.collapse, .navbar-collapse{
+    transition: all 1.5s ease ;
+}
+.dropdown-item{
+    transition: all 0.5s ease;
+}
 .bg-color{
     background-color: #187875;
 }
 .bgSecondary{
-    background-color: #60ab13;
+    background-color: #6daf2c;
 }
 .textColor{
     color: #60ab13;
@@ -31,8 +51,8 @@
     padding: 0 0;
 }
 .radiousa{
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 .social-nav li a{
